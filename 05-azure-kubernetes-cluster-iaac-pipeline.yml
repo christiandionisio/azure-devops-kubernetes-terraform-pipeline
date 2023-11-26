@@ -23,7 +23,7 @@ steps:
     backendAzureRmResourceGroupName: 'terraform-backend-rg'
     backendAzureRmResourceGroupLocation: 'canadaeast'
     backendAzureRmStorageAccountName: 'storageacctcdionisioabc'
-    backendAzureRmContainerName: 'storageacctcdionisiocontainer'
+    backendAzureRmContainerName: 'storageacctcdionisioabccontainer'
     backendAzureRmKey: 'kubernetes-dev.tf'
     allowTelemetryCollection: true
     
