@@ -30,5 +30,6 @@ steps:
 - task: TerraformCLI@2
   inputs:
     command: 'destroy'
+    commandOptions: '-lock=false'
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes'
     environmentServiceName: 'azure-resource-manager-service-connection'
